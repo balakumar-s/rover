@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/jarvis/ROS_jarvis/rover/build/devel/setup.sh

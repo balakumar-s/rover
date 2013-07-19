@@ -1,0 +1,6 @@
+<launch>
+
+  <node name="bluetoothComm" pkg="rosserial_python" type="serial_node.py" output="screen">
+	<param name="port" value="/dev/rfcomm0"/>
+  </node>
+</launch>

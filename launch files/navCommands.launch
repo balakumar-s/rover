@@ -1,0 +1,10 @@
+<launch>
+
+  <node name="navCommands" pkg="pocketsphinx" type="recognizer.py" output="screen">
+    <param name="lm" value="$(find rover)/config/voiceData/navCommands/navCommands.lm"/>
+    <param name="dict" value="$(find rover)/config/voiceData/navCommands/navCommands.dic"/>
+  </node>
+
+</launch>
+
+

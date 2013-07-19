@@ -1,0 +1,4 @@
+<launch>
+	<include file="$(find rover)/launch files/navCommands.launch" />
+	<include file="$(find rover)/launch files/serialComm.launch" />
+</launch>
